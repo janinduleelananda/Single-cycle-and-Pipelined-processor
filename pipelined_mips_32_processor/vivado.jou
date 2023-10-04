@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct  4 09:22:49 2023
+# Process ID: 37640
+# Current directory: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent55480 C:\Users\Janindu Leelananda\OneDrive - University of Moratuwa\Documents\courses\IIT processor design course\pipelined_mips_32_processor\pipelined_mips_32_processor.xpr
+# Log file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/vivado.log
+# Journal file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.xpr}
+update_compile_order -fileset sources_1

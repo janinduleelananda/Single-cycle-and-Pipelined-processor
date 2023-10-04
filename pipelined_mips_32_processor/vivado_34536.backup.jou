@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 26 13:36:35 2023
+# Process ID: 34536
+# Current directory: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41172 C:\Users\Janindu Leelananda\OneDrive - University of Moratuwa\Documents\courses\IIT processor design course\pipelined_mips_32_processor\pipelined_mips_32_processor.xpr
+# Log file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/vivado.log
+# Journal file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+close_project
+create_project project_single_cycle {C:/Users/Janindu Leelananda/OneDrive - Univerclose_sim
+ratuwa/Documents/courses/IIT processor design course/project_single_cycle} -part xc7vx485tffg1157-1
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+file mkdir {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new}
+close [ open {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv} w ]
+add_files {{C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+file mkdir {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new}
+close [ open {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv} w ]
+add_files -fileset sim_1 {{C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source tb.tcl
+run all
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

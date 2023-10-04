@@ -1,0 +1,367 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 26 13:36:35 2023
+# Process ID: 34536
+# Current directory: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41172 C:\Users\Janindu Leelananda\OneDrive - University of Moratuwa\Documents\courses\IIT processor design course\pipelined_mips_32_processor\pipelined_mips_32_processor.xpr
+# Log file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/vivado.log
+# Journal file: C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 813.016 ; gain = 177.602
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipelined_processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipelined_processor_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b97e7932ce6b41d1aa099fc1e87a82d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelined_processor_tb_behav xil_defaultlib.pipelined_processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+C:/Xilinx/Vivado/2018.3/tps/mingw/6.2.0/win64.o/nt/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file xsim.dir/pipelined_processor_tb_behav/xsimk.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/pipelined_mips_32_processor/pipelined_mips_32_processor.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 844.117 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_project
+create_project project_single_cycle {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle} -part xc7vx485tffg1157-1
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new}
+close [ open {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv} w ]
+add_files {{C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janiclose_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 26 14:48:42 2023...
+ocessor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janindu": permission denied
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new
+can't create directory "C:/Users/Janindu": permission denied
+file mkdir {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new}
+close [ open {C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv} w ]
+add_files -fileset sim_1 {{C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d91927243efe4c5e84af17d24a4b6b98 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipe_MIPS32
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 848.492 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+R2:x
+R2:   1
+R2:   7
+R2:  42
+R2: 210
+R2: 840
+R2:2520
+R2:5040
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 892.816 ; gain = 44.324
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2458] undeclared symbol clk2, assumed default net type wire [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:27]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clk2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:31]
+ERROR: [VRFC 10-2865] module 'tb' ignored due to previous errors [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2458] undeclared symbol clk2, assumed default net type wire [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:27]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clk2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:31]
+ERROR: [VRFC 10-2865] module 'tb' ignored due to previous errors [C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d91927243efe4c5e84af17d24a4b6b98 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipe_MIPS32
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+R2:x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 894.801 ; gain = 0.000
+run all
+Mem[200]= 7, Mem[198] =x
+$finish called at time : 5 us : File "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" Line 64
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d91927243efe4c5e84af17d24a4b6b98 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipe_MIPS32
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+R2:x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 894.801 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_MIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d91927243efe4c5e84af17d24a4b6b98 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipe_MIPS32
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Janindu Leelananda/OneDrive - University of Moratuwa/Documents/courses/IIT processor design course/project_single_cycle/project_single_cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+R2:x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 894.801 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 26 15:12:48 2023...
